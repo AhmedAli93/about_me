@@ -9,21 +9,21 @@ alert('Hi there ' + name + ', I\'m going to ask you yes/no questions.');
 var work = prompt('Do you work for a living');
 var work1 = work.toUpperCase();
 console.log(work);
-if(work1 ==='NO')
+if(work1 ==='NO'|| work1 ==='N')
 {
 var school = prompt('Do you go to school');
 var school1 = school.toUpperCase();
 console.log(school);}
 
-if(school1 === 'NO'){
+if(school1 === 'NO' || school1 === 'N'){
   alert('You are very lazy');
 }
 
-if(work1 === 'YES'){
+if(work1 === 'YES' || work1 === 'Y'){
 var coding = prompt('Do you like coding');
 var coding1 = coding.toUpperCase();
 console.log(coding);}
 
-if(coding1 === 'YES'){
+if(coding1 === 'YES' || coding1 ==='Y'){
   alert('Wow! I also too.');
 }

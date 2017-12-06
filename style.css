@@ -5,3 +5,8 @@ header{
 body{
   background-color: lightgrey;
 }
+
+p{
+   font-style: italic;
+   font-weight: bold;
+ }
