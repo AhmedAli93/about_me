@@ -38,7 +38,7 @@ var codingUpper = coding.toUpperCase();
 console.log(coding);
 
 if(codingUpper === 'YES' || codingUpper ==='Y'){
-  alert('Wow! I have also learned how too code also.');
+  alert('Great! I\'m currently learning how too code.');
 }
 if(codingUpper === 'NO' || codingUpper ==='N'){
   alert('You should start learning how to code its awsome!');
@@ -49,7 +49,7 @@ var driveUpper = drive.toUpperCase();
 console.log(drive);
 
 if(driveUpper === 'YES' || driveUpper ==='Y'){
-  alert('You must be 18years or older.');
+  alert('You must be 18 or older.');
 }
 if(driveUpper === 'NO' || driveUpper ==='N'){
   alert('You must be under the age of 18.');
